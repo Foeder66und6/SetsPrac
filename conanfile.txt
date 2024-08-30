@@ -1,0 +1,11 @@
+[requires]
+vincentlaucsb-csv-parser/2.2.0
+lazycsv/cci.20221117
+cxxopts/3.2.0
+rapidjson/cci.20230929
+gtest/1.14.0
+[generators]
+CMakeDeps
+CMakeToolchain
+[layout]
+cmake_layout
