@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/C/PracticeLibsA/build/build/Release",
+  "command": "C:\\MinGW\\x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0\\mingw64\\bin\\c++.exe  @CMakeFiles/Sets.dir/includes_CXX.rsp -m64 -O3 -DNDEBUG -std=c++17 -o CMakeFiles\\Sets.dir\\sets.cpp.obj -c D:\\C\\PracticeLibsA\\sets.cpp",
+  "file": "D:/C/PracticeLibsA/sets.cpp",
+  "output": "CMakeFiles/Sets.dir/sets.cpp.obj"
+}
+]

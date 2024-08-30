@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/.conan2/**",
+                "C:/Users/User/.conan2/p/rapidf7a3355ba53c4/p/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:\\MinGW\\x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0\\mingw64\\bin\\g++.exe"
+        }
+    ],
+    "version": 4
+}
