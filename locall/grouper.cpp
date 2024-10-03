@@ -31,6 +31,7 @@ std::map<int, std::vector<long long>> Grouper::find(std::vector<long long> query
         cur_set = -1;
         std::vector<int> t_union = {};
         std::vector<long long> srcs = addr_dst[query[i]];// dsts dst_set[i]
+        //intersection search
         for (int j = 0; j < srcs.size(); j++) {
             //std::cout << srcs[j] << " " << i ;
             //std::cout << std::endl;
@@ -41,6 +42,7 @@ std::map<int, std::vector<long long>> Grouper::find(std::vector<long long> query
             
 /**/
         }
+        //new set creation
         if (cur_set == -1) {
             sets[cur_id] = {};
             
@@ -50,6 +52,7 @@ std::map<int, std::vector<long long>> Grouper::find(std::vector<long long> query
             }
             cur_id++;
         } else {// ()
+            //set union
             int t_witch;
             std::vector<long long> first_set = sets[actual_in_src[t_union[0]]];
             t_witch = actual_in_src[t_union[0]];
