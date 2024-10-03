@@ -1,0 +1,10 @@
+D:/C/PracticeLibsA/build/build/CMakeFiles/Sets.dir
+D:/C/PracticeLibsA/build/build/CMakeFiles/RUN_TESTS.dir
+D:/C/PracticeLibsA/build/build/CMakeFiles/ALL_BUILD.dir
+D:/C/PracticeLibsA/build/build/CMakeFiles/ZERO_CHECK.dir
+D:/C/PracticeLibsA/build/build/locall/CMakeFiles/grouper.dir
+D:/C/PracticeLibsA/build/build/locall/CMakeFiles/RUN_TESTS.dir
+D:/C/PracticeLibsA/build/build/locall/CMakeFiles/ALL_BUILD.dir
+D:/C/PracticeLibsA/build/build/test/CMakeFiles/test_sets.dir
+D:/C/PracticeLibsA/build/build/test/CMakeFiles/RUN_TESTS.dir
+D:/C/PracticeLibsA/build/build/test/CMakeFiles/ALL_BUILD.dir

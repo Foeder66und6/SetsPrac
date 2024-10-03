@@ -1,0 +1,109 @@
+Start testing: Oct 02 00:20 RTZ 7 (çèìà)
+----------------------------------------------------------
+1/1 Testing: sets_t
+1/1 Test: sets_t
+Command: "D:/C/PracticeLibsA/build/build/test/Release/test_sets.exe"
+Directory: D:/C/PracticeLibsA/build/build/test
+"sets_t" start time: Oct 02 00:20 RTZ 7 (çèìà)
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from GroupingTest
+[ RUN      ] GroupingTest.group_1
+Grouper class instance has been created!
+sets found: 1
+srcs found: 3
+mean set size: 3
+ memmber::function:: lllll
+11 0
+01 memmber::function::call
+member::function::call almostvfinished
+//[       OK ] GroupingTest.group_1 (0 ms)
+[ RUN      ] GroupingTest.group_2
+Grouper class instance has been created!
+sets found: 1
+srcs found: 3
+mean set size: 3
+ memmber::function:: lllll
+11 0
+12 0
+02 memmber::function::call
+member::function::call almostvfinished
+//[       OK ] GroupingTest.group_2 (0 ms)
+[ RUN      ] GroupingTest.group_3
+Grouper class instance has been created!
+sets found: 1
+srcs found: 3
+mean set size: 3
+ memmber::function:: lllll
+11 0
+13 1
+01 memmber::function::call
+11 memmber::function::call
+member::function::call almostvfinished
+//[       OK ] GroupingTest.group_3 (0 ms)
+[ RUN      ] GroupingTest.group_4
+Grouper class instance has been created!
+sets found: 1
+srcs found: 3
+mean set size: 3
+ memmber::function:: lllll
+11 0
+12 0
+12 1
+13 1
+03 memmber::function::call
+member::function::call almostvfinished
+//[       OK ] GroupingTest.group_4 (0 ms)
+[ RUN      ] GroupingTest.group_5
+Grouper class instance has been created!
+sets found: 1
+srcs found: 3
+mean set size: 3
+ memmber::function:: lllll
+11 0
+11 1
+12 1
+12 2
+13 2
+13 3
+03 memmber::function::call
+member::function::call almostvfinished
+//[       OK ] GroupingTest.group_5 (0 ms)
+[ RUN      ] GroupingTest.group_6
+Grouper class instance has been created!
+sets found: 1
+srcs found: 3
+mean set size: 3
+ memmber::function:: lllll
+13 0
+01 memmber::function::call
+member::function::call almostvfinished
+//[       OK ] GroupingTest.group_6 (0 ms)
+[ RUN      ] GroupingTest.group_7
+Grouper class instance has been created!
+sets found: 1
+srcs found: 3
+mean set size: 3
+ memmber::function:: lllll
+12 0
+13 0
+13 1
+02 memmber::function::call
+member::function::call almostvfinished
+//[       OK ] GroupingTest.group_7 (0 ms)
+[----------] 7 tests from GroupingTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"sets_t" end time: Oct 02 00:20 RTZ 7 (çèìà)
+"sets_t" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 02 00:20 RTZ 7 (çèìà)

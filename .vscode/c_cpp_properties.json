@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "~/.conan2/**",
-                "C:/Users/User/.conan2/p/rapidf7a3355ba53c4/p/include"
+                "C:/Users/User/.conan2/p/rapidf7a3355ba53c4/p/include",
+                "${workspaceFolder}"
             ],
             "defines": [
                 "_DEBUG",

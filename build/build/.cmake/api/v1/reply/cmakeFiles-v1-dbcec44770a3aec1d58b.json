@@ -1,0 +1,310 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/CMakeFiles/3.30.1/CMakeSystem.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/conan_toolchain.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/CMakeFiles/3.30.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/CMakeFiles/3.30.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/CMakeFiles/3.30.1/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/vincentlaucsb-csv-parser-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/vincentlaucsb-csv-parser-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/vincentlaucsb-csv-parserTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/vincentlaucsb-csv-parser-release-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/vincentlaucsb-csv-parser-Target-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/cxxopts-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/cxxopts-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/cxxoptsTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/cxxopts-release-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/cxxopts-Target-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/RapidJSONConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/RapidJSONConfig.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/RapidJSONTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/RapidJSON-release-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/RapidJSON-Target-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/GTestConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/GTestConfig.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/GTestTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/GTest-release-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/GTest-Target-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/range-v3-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/range-v3-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/range-v3Targets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/range-v3-release-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/build/generators/range-v3-Target-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : "locall/CMakeLists.txt"
+		},
+		{
+			"path" : "test/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/C/PracticeLibsA/build/build",
+		"source" : "D:/C/PracticeLibsA"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

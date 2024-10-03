@@ -1,0 +1,53 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/3.30.1 windows/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
+D:/C/PracticeLibsA/CMakeLists.txt
+D:/C/PracticeLibsA/build/build/CMakeFiles/3.30.1/CMakeCCompiler.cmake
+D:/C/PracticeLibsA/build/build/CMakeFiles/3.30.1/CMakeCXXCompiler.cmake
+D:/C/PracticeLibsA/build/build/CMakeFiles/3.30.1/CMakeRCCompiler.cmake
+D:/C/PracticeLibsA/build/build/CMakeFiles/3.30.1/CMakeSystem.cmake
+D:/C/PracticeLibsA/build/build/generators/GTest-Target-release.cmake
+D:/C/PracticeLibsA/build/build/generators/GTest-release-x86_64-data.cmake
+D:/C/PracticeLibsA/build/build/generators/GTestConfig.cmake
+D:/C/PracticeLibsA/build/build/generators/GTestConfigVersion.cmake
+D:/C/PracticeLibsA/build/build/generators/GTestTargets.cmake
+D:/C/PracticeLibsA/build/build/generators/RapidJSON-Target-release.cmake
+D:/C/PracticeLibsA/build/build/generators/RapidJSON-release-x86_64-data.cmake
+D:/C/PracticeLibsA/build/build/generators/RapidJSONConfig.cmake
+D:/C/PracticeLibsA/build/build/generators/RapidJSONConfigVersion.cmake
+D:/C/PracticeLibsA/build/build/generators/RapidJSONTargets.cmake
+D:/C/PracticeLibsA/build/build/generators/cmakedeps_macros.cmake
+D:/C/PracticeLibsA/build/build/generators/conan_toolchain.cmake
+D:/C/PracticeLibsA/build/build/generators/cxxopts-Target-release.cmake
+D:/C/PracticeLibsA/build/build/generators/cxxopts-config-version.cmake
+D:/C/PracticeLibsA/build/build/generators/cxxopts-config.cmake
+D:/C/PracticeLibsA/build/build/generators/cxxopts-release-x86_64-data.cmake
+D:/C/PracticeLibsA/build/build/generators/cxxoptsTargets.cmake
+D:/C/PracticeLibsA/build/build/generators/range-v3-Target-release.cmake
+D:/C/PracticeLibsA/build/build/generators/range-v3-config-version.cmake
+D:/C/PracticeLibsA/build/build/generators/range-v3-config.cmake
+D:/C/PracticeLibsA/build/build/generators/range-v3-release-x86_64-data.cmake
+D:/C/PracticeLibsA/build/build/generators/range-v3Targets.cmake
+D:/C/PracticeLibsA/build/build/generators/vincentlaucsb-csv-parser-Target-release.cmake
+D:/C/PracticeLibsA/build/build/generators/vincentlaucsb-csv-parser-config-version.cmake
+D:/C/PracticeLibsA/build/build/generators/vincentlaucsb-csv-parser-config.cmake
+D:/C/PracticeLibsA/build/build/generators/vincentlaucsb-csv-parser-release-x86_64-data.cmake
+D:/C/PracticeLibsA/build/build/generators/vincentlaucsb-csv-parserTargets.cmake

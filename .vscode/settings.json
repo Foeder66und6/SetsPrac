@@ -71,5 +71,6 @@
         "fstream": "cpp",
         "span": "cpp",
         "cinttypes": "cpp"
-    }
+    },
+    "C_Cpp.default.cppStandard": "c++17"
 }

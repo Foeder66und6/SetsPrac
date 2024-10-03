@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{87667A78-CD70-34F3-8C3E-285640804FAA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Sets</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C\PracticeLibsA\build\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Sets.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Sets</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C\PracticeLibsA\build\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Sets.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Sets</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PATH=C:/Users/User/.conan2/p/b/gtestc49e477bbdd79/p/bin;C:/Users/User/.conan2/p/rangef4744355d8aba/p/bin;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C\PracticeLibsA\build\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Sets.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Sets</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C\PracticeLibsA\build\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Sets.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Sets</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>locall\Debug\grouper.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/C/PracticeLibsA/build/build/Debug/Sets.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/C/PracticeLibsA/build/build/Debug/Sets.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/User/.conan2/p/vince5ff4427730244/p/include" /external:I "C:/Users/User/.conan2/p/cxxop782c19b5a4d3b/p/include" /external:I "C:/Users/User/.conan2/p/rapidf7a3355ba53c4/p/include" /external:I "C:/Users/User/.conan2/p/b/gtestc49e477bbdd79/p/include" /external:I "C:/Users/User/.conan2/p/rangef4744355d8aba/p/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;C:\Users\User\.conan2\p\vince5ff4427730244\p\include;C:\Users\User\.conan2\p\cxxop782c19b5a4d3b\p\include;C:\Users\User\.conan2\p\rapidf7a3355ba53c4\p\include;C:\Users\User\.conan2\p\b\gtestc49e477bbdd79\p\include;C:\Users\User\.conan2\p\rangef4744355d8aba\p\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;C:\Users\User\.conan2\p\vince5ff4427730244\p\include;C:\Users\User\.conan2\p\cxxop782c19b5a4d3b\p\include;C:\Users\User\.conan2\p\rapidf7a3355ba53c4\p\include;C:\Users\User\.conan2\p\b\gtestc49e477bbdd79\p\include;C:\Users\User\.conan2\p\rangef4744355d8aba\p\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>locall\Release\grouper.lib;C:\Users\User\.conan2\p\b\gtestc49e477bbdd79\p\lib\gmock_main.lib;C:\Users\User\.conan2\p\b\gtestc49e477bbdd79\p\lib\gmock.lib;C:\Users\User\.conan2\p\b\gtestc49e477bbdd79\p\lib\gtest_main.lib;C:\Users\User\.conan2\p\b\gtestc49e477bbdd79\p\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/User/.conan2/p/b/gtestc49e477bbdd79/p/lib;C:/Users/User/.conan2/p/b/gtestc49e477bbdd79/p/lib/$(Configuration);C:/Users/User/.conan2/p/rangef4744355d8aba/p/lib;C:/Users/User/.conan2/p/rangef4744355d8aba/p/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/C/PracticeLibsA/build/build/Release/Sets.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/C/PracticeLibsA/build/build/Release/Sets.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>locall\MinSizeRel\grouper.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/C/PracticeLibsA/build/build/MinSizeRel/Sets.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/C/PracticeLibsA/build/build/MinSizeRel/Sets.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\C\PracticeLibsA\locall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>locall\RelWithDebInfo\grouper.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/C/PracticeLibsA/build/build/RelWithDebInfo/Sets.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/C/PracticeLibsA/build/build/RelWithDebInfo/Sets.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C\PracticeLibsA\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/C/PracticeLibsA/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\bin\cmake.exe" -SD:/C/PracticeLibsA -BD:/C/PracticeLibsA/build/build --check-stamp-file D:/C/PracticeLibsA/build/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeCCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeSystem.cmake;D:\C\PracticeLibsA\build\build\generators\GTest-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\GTest-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\GTestConfig.cmake;D:\C\PracticeLibsA\build\build\generators\GTestConfigVersion.cmake;D:\C\PracticeLibsA\build\build\generators\GTestTargets.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSON-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSON-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONConfig.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONConfigVersion.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONTargets.cmake;D:\C\PracticeLibsA\build\build\generators\cmakedeps_macros.cmake;D:\C\PracticeLibsA\build\build\generators\conan_toolchain.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-config.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\cxxoptsTargets.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-config.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3Targets.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-config.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parserTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C\PracticeLibsA\build\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/C/PracticeLibsA/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\bin\cmake.exe" -SD:/C/PracticeLibsA -BD:/C/PracticeLibsA/build/build --check-stamp-file D:/C/PracticeLibsA/build/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeCCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeSystem.cmake;D:\C\PracticeLibsA\build\build\generators\GTest-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\GTest-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\GTestConfig.cmake;D:\C\PracticeLibsA\build\build\generators\GTestConfigVersion.cmake;D:\C\PracticeLibsA\build\build\generators\GTestTargets.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSON-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSON-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONConfig.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONConfigVersion.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONTargets.cmake;D:\C\PracticeLibsA\build\build\generators\cmakedeps_macros.cmake;D:\C\PracticeLibsA\build\build\generators\conan_toolchain.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-config.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\cxxoptsTargets.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-config.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3Targets.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-config.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parserTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C\PracticeLibsA\build\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/C/PracticeLibsA/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\bin\cmake.exe" -SD:/C/PracticeLibsA -BD:/C/PracticeLibsA/build/build --check-stamp-file D:/C/PracticeLibsA/build/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeCCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeSystem.cmake;D:\C\PracticeLibsA\build\build\generators\GTest-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\GTest-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\GTestConfig.cmake;D:\C\PracticeLibsA\build\build\generators\GTestConfigVersion.cmake;D:\C\PracticeLibsA\build\build\generators\GTestTargets.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSON-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSON-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONConfig.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONConfigVersion.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONTargets.cmake;D:\C\PracticeLibsA\build\build\generators\cmakedeps_macros.cmake;D:\C\PracticeLibsA\build\build\generators\conan_toolchain.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-config.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\cxxoptsTargets.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-config.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3Targets.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-config.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parserTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C\PracticeLibsA\build\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/C/PracticeLibsA/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\bin\cmake.exe" -SD:/C/PracticeLibsA -BD:/C/PracticeLibsA/build/build --check-stamp-file D:/C/PracticeLibsA/build/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeCCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;D:\C\PracticeLibsA\build\build\CMakeFiles\3.30.1\CMakeSystem.cmake;D:\C\PracticeLibsA\build\build\generators\GTest-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\GTest-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\GTestConfig.cmake;D:\C\PracticeLibsA\build\build\generators\GTestConfigVersion.cmake;D:\C\PracticeLibsA\build\build\generators\GTestTargets.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSON-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSON-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONConfig.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONConfigVersion.cmake;D:\C\PracticeLibsA\build\build\generators\RapidJSONTargets.cmake;D:\C\PracticeLibsA\build\build\generators\cmakedeps_macros.cmake;D:\C\PracticeLibsA\build\build\generators\conan_toolchain.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-config.cmake;D:\C\PracticeLibsA\build\build\generators\cxxopts-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\cxxoptsTargets.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-config.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\range-v3Targets.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-Target-release.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-config-version.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-config.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parser-release-x86_64-data.cmake;D:\C\PracticeLibsA\build\build\generators\vincentlaucsb-csv-parserTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C\PracticeLibsA\build\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\C\PracticeLibsA\sets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\C\PracticeLibsA\build\build\ZERO_CHECK.vcxproj">
+      <Project>{031A596A-C166-3B24-9577-B22D2A7A1EFF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\C\PracticeLibsA\build\build\locall\grouper.vcxproj">
+      <Project>{7CFD316B-B233-3F92-8F8E-1E41440F25FD}</Project>
+      <Name>grouper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

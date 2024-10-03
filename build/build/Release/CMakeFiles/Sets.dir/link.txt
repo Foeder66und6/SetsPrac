@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\bin\cmake.exe" -E rm -f CMakeFiles\Sets.dir/objects.a
-C:\MinGW\x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0\mingw64\bin\ar.exe qc CMakeFiles\Sets.dir/objects.a @CMakeFiles\Sets.dir\objects1.rsp
-C:\MinGW\x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0\mingw64\bin\c++.exe -m64 -O3 -DNDEBUG -m64 -Wl,--whole-archive CMakeFiles\Sets.dir/objects.a -Wl,--no-whole-archive -o Sets.exe -Wl,--out-implib,libSets.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Sets.dir\linkLibs.rsp

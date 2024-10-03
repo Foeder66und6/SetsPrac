@@ -1,0 +1,10 @@
+^D:\C\PRACTICELIBSA\BUILD\BUILD\CMAKEFILES\6B065A575435A7AE1EF92952F3FB803E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\3.30.1 windows\cmake-3.30.1-windows-x86_64\bin\cmake.exe" -SD:/C/PracticeLibsA -BD:/C/PracticeLibsA/build/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/C/PracticeLibsA/build/build/Sets.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
